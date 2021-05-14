@@ -7,7 +7,7 @@ services:
         aliases:
           - app1
     ports:
-      - "8585:8989"
+      - "8989:8989"
   app2:
     build: ./app2
     networks:
@@ -15,6 +15,6 @@ services:
         aliases:
           - app2
     ports:
-      - "8585:8686"
+      - "8686:8686"
 networks:
   redpr:
